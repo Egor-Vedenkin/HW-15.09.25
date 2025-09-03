@@ -14,7 +14,7 @@ public class Main {
 
         // Задача 2
         int temperature = 6;
-        if (temperature <= 6) {
+        if (temperature <= 5) {
             System.out.println("Нужно надеть шапку, на улице " + temperature + " градусов");
         } else {
             System.out.println("Шапка не нужна, на улице " + temperature + " градусов");
@@ -23,6 +23,14 @@ public class Main {
         System.out.println();
 
         // Задача 3
+        int speed = 210;
+        if (speed >= 60) {
+            System.out.println("Если ваша скорость " + speed + ", придется заплатить штраф");
+        } else {
+            System.out.println("Если ваша скорость " + speed + ", можно ездить спокойно");
+        }
+        // Отступ для визуального отделения задач
+        System.out.println();
 
     }
 }
