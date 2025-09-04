@@ -32,5 +32,56 @@ public class Main {
         // Отступ для визуального отделения задач
         System.out.println();
 
+        // Задача 4
+        int agee = 15;
+        if (agee >= 2 && age <= 6) {
+            System.out.println("Если возраст человека " + agee + ", ему нужно ходить в детский сад");
+        } else if (agee >= 7 && age <= 17) {
+            System.out.println("Если возраст человека " + agee + ", ему нужно ходить в школу");
+        } else if (agee >= 18 && age <= 24) {
+            System.out.println("Если возраст человека " + agee + ", ему нужно ходить в университет");
+        } else {
+            System.out.println("Если возраст человека " + agee + ", ему нужно ходить на работу");
+        }
+        // Отступ для визуального отделения задач
+        System.out.println();
+
+        // Задача 5
+        int ageee = 3;
+        if (ageee < 5) {
+            System.out.println("Если возраст ребенка " + ageee + ", то он не может кататься на аттракционе");
+        } else if (ageee >= 5 && age < 14) {
+            System.out.println("Если возраст ребенка " + ageee + ", то ему можно кататься на аттракционе в сопровождении взрослого");
+        } else {
+            System.out.println("Если возраст ребенка " + ageee + ", то ему можно кататься на аттракционе без сопровождения");
+        }
+        // Отступ для визуального отделения задач
+        System.out.println();
+
+        // Задача 6
+        int people = 70;
+        if (people < 60) {
+            System.out.println("В вагоне есть сидячие места");
+        } else if (people >= 60 && people <= 102) {
+            System.out.println("В вагоне есть только стоячие места");
+        } else {
+            System.out.println("Вагон полностью забит");
+        }
+        // Отступ для визуального отделения задач
+        System.out.println();
+
+        // Задача 7
+        int one = 6;
+        int two = 10;
+        int three = 2;
+        if (one == two && one == three) {
+            System.out.println("Числа равны, их значение равно " + one);
+        } else if (one > two && one > three) {
+            System.out.println("Первое число наибольшее, его значение равно " + one);
+        } else if (two > one && two > three) {
+            System.out.println("Второе число наибольшее, его значение равно " + two);
+        } else {
+            System.out.println("Третье число наибольшее, его значение равно " + three);
+        }
     }
 }
