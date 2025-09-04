@@ -33,27 +33,27 @@ public class Main {
         System.out.println();
 
         // Задача 4
-        int agee = 15;
-        if (agee >= 2 && age <= 6) {
-            System.out.println("Если возраст человека " + agee + ", ему нужно ходить в детский сад");
-        } else if (agee >= 7 && age <= 17) {
-            System.out.println("Если возраст человека " + agee + ", ему нужно ходить в школу");
-        } else if (agee >= 18 && age <= 24) {
-            System.out.println("Если возраст человека " + agee + ", ему нужно ходить в университет");
-        } else {
-            System.out.println("Если возраст человека " + agee + ", ему нужно ходить на работу");
+        int ageFirst = 15;
+        if (ageFirst >= 2 && ageFirst <= 6) {
+            System.out.println("Если возраст человека " + ageFirst + ", ему нужно ходить в детский сад");
+        } else if (ageFirst >= 7 && ageFirst <= 17) {
+            System.out.println("Если возраст человека " + ageFirst + ", ему нужно ходить в школу");
+        } else if (ageFirst >= 18 && ageFirst <= 24) {
+            System.out.println("Если возраст человека " + ageFirst + ", ему нужно ходить в университет");
+        } else if (ageFirst > 24) {
+            System.out.println("Если возраст человека " + ageFirst + ", ему нужно ходить на работу");
         }
         // Отступ для визуального отделения задач
         System.out.println();
 
         // Задача 5
-        int ageee = 3;
-        if (ageee < 5) {
-            System.out.println("Если возраст ребенка " + ageee + ", то он не может кататься на аттракционе");
-        } else if (ageee >= 5 && age < 14) {
-            System.out.println("Если возраст ребенка " + ageee + ", то ему можно кататься на аттракционе в сопровождении взрослого");
+        int ageSecond = 3;
+        if (ageSecond < 5) {
+            System.out.println("Если возраст ребенка " + ageSecond + ", то он не может кататься на аттракционе");
+        } else if (ageSecond >= 5 && ageSecond < 14) {
+            System.out.println("Если возраст ребенка " + ageSecond + ", то ему можно кататься на аттракционе в сопровождении взрослого");
         } else {
-            System.out.println("Если возраст ребенка " + ageee + ", то ему можно кататься на аттракционе без сопровождения");
+            System.out.println("Если возраст ребенка " + ageSecond + ", то ему можно кататься на аттракционе без сопровождения");
         }
         // Отступ для визуального отделения задач
         System.out.println();
